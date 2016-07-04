@@ -87,6 +87,22 @@
 
           });
 
+          describe('Number.isInteger', () => {
+
+            it('is valid', () => {
+
+              expect(lib({id: 3}, 'id', 42, Number.isInteger)).toBe(3);
+
+            });
+
+            it('is not valid', () => {
+
+              expect(lib({id: 3.333}, 'id', 42, Number.isInteger)).toBe(42);
+
+            });
+
+          });
+
           describe('is not valid', () => {
 
             let isValid = jasmine.createSpy('isValid').andReturn(false),
