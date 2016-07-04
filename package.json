@@ -1,0 +1,34 @@
+{
+  "name": "get-key-or-default",
+  "version": "1.0.0",
+  "description": "Get object key or default value",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lewismoten/get-key-or-default.git"
+  },
+  "keywords": [
+    "default",
+    "object",
+    "key",
+    "property",
+    "name",
+    "fallback",
+    "ensure",
+    "optional",
+    "option",
+    "options",
+    "overrides",
+    "override",
+    "overridden"
+  ],
+  "author": "Lewis Edward Moten III",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lewismoten/get-key-or-default/issues"
+  },
+  "homepage": "https://github.com/lewismoten/get-key-or-default#readme"
+}
