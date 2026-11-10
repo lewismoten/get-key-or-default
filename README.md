@@ -1,3 +1,5 @@
+![get-key-or-default: JavaScript utility: object key or default](docs/images/social-preview.png)
+
 # Get Key or Default
 
 Gets the value of an objects key, and falls back to a default value.
